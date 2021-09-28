@@ -14,8 +14,6 @@ for(section of sections2){
     listItem.appendChild(a);
     listItem.addEventListener("click",(e)=>{
         let section1=document.getElementById(e.target.id.slice(0,e.target.id.length-1));
-        console.log(section1);
-        section1.scrollIntoView(true);
     })
     ul.appendChild(listItem);
     counter++;
@@ -27,7 +25,6 @@ for(section of sections2){
 //////// show active nav items //////
 const litems=Array.from(document.getElementsByClassName("nav-li"));
 const aitems=Array.from(document.getElementsByClassName("nav-a"));
-console.log(aitems);
 
 const sections = document.querySelectorAll("section");
 window.onscroll = () => {
