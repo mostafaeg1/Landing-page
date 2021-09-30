@@ -139,20 +139,36 @@ li{
 }
 
 
-@media only screen and (max-width: 508px){
+@media only screen and (max-width: 643px){
+    li{
+        padding: 12px;
+    }
+   
+
+}
+@media only screen and (max-width: 580px){
     .page__header {
        height: 140px;
     }
-
+    li{
+    padding: 15px;
+    }
+    
 }
 
+@media only screen and (max-width: 380px){
+    .page__header {
+       height: 190px;
+    }
+    li{
+    padding: 15px;
+    }
+}
 @media only screen and (min-width: 35em){
     .landing__container {
         max-width: 50em;
         padding: 4em;
     }
-
-   
 }
 
 section:nth-of-type(even) .landing__container {
